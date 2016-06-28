@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 50%;
+}
+div{
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 100px;
+    width: 90%;
+    
+}
+div #toHere{
+    display: none;
+}

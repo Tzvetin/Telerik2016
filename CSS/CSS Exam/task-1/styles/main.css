@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica;
+}
+#avatar img {
+  width: 230px;
+  height: 230px;
+  border-radius: 5px;
+  margin: 5px 0 0 6px;
+}
+
+#main-info h1{
+  font-size: 26px;
+  padding: 0px 0 0 0px;
+}
+
+#main-info h2{
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  padding: 2px 0 9px 0px;
+  color: #666666;
+}
+#label{
+  margin: 15px 0 0 px;
+  padding: 2px 0 0 2px;
+  color: white;
+  background-color: #6CC644;
+  border-radius: 2px;
+  width: 28px;
+  height: 15px;
+  float: left;
+  font-size: 11px;
+  
+}
+
+#label + a {
+  display: block;
+  padding: 0px 0 10px 35px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #6DA6DD;
+  
+  
+}
+#main-info{
+  margin: 8px 0 0 6px;
+  border-bottom: 2px solid #EEEEEE;
+ width: 230px;
+}
+#details{
+    margin: 8px 0 0px 6px;
+  border-bottom: 2px solid #EEEEEE;
+  width: 230px;
+}
+#location, #mail,  #joined{
+  margin: 10px 0 0 0px;
+}
+#location span{
+  float: left;
+}
+#location p{
+  margin: 0px 0 0 21px;
+ font-size:14px;
+}
+#mail span{
+  float: left;
+}
+#mail a{
+  padding: 0px 0 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #6DA6DD;
+}
+#joined span{
+ float: left;
+}
+#joined p{
+   margin: 0px 0 10px 23px;
+ font-size:14px;
+}
+
+.followers, .followers span{
+ display: block;
+ }
+.starred, .starred span{
+ display: block;
+ }
+ .following, .following span{
+ display: block;
+ }
+
+.followers, .starred, .following{
+  font-size: 11px;
+  float: left;
+  text-align: center;
+}
+.followers{
+  margin: 0px 0px 10px 13px;
+}
+.starred{
+  margin: 0px 0px 0px 25px;
+}
+.following{
+  margin: 0px 0px 0px 27px;
+}
+.followers span,.starred span, .following span{
+  margin: 0px 0 -4px 0;
+  font-size:  28px;
+  color: #4078C0;
+  font-weight: bold;
+}
+#git-info{
+  display: inline-block;
+  margin: 8px 0 40px 6px;
+  border-bottom: 2px solid #EEEEEE;
+  width: 230px;
+}

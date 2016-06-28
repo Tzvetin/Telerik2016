@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+table{
+    background-color: #595959;
+    width: 18%;  
+}
+th{
+    color: #999999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    padding: 6px 0px 4px 0px;
+}
+
+td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #BCBEC1;
+    text-align: left;
+    padding: 0px 0px 12px 0px;
+}
+td:nth-child(1){
+    color: white;
+    font-style: italic;
+    width: 100px;
+}
+#mail, #online{
+    color: #FFF2B2;
+}
+#online:before{
+    content: "●";
+    color: #71B47A;
+    font-size: 20px;
+}
+#online:after{
+   
+    content:  "\A No Actinve Support";
+    white-space: pre;
+    color: red;
+}
+#status{
+    color: #DC6B29;
+}
+#link{
+    color: #E4D887;
+}

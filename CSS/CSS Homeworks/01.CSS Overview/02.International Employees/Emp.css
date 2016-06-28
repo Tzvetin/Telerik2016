@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+table, th, td{
+    border-collapse: collapse;
+   border-left: 1px solid darkgray;
+   
+}
+th{
+    background: linear-gradient(#59BD06,#52B506,#47A803);
+    color: white;
+    
+}
+td, th{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    padding: 4px 10px 6px 6px;
+}
+td:nth-child(1){
+    width: 120px;
+}
+td:nth-child(2){
+    width: 95px;
+}
+td:nth-child(3){
+    width: 110px;
+}
+td:nth-child(4){
+    width: 65px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+td[value*=germany]:before{
+   
+  background-image: url(flags/germany.png);
+   background-size: 15px 15px;
+   display: inline-block;
+  width: 15px;
+  height: 15px;
+  content: "";
+}
+td[value*=mexico]:before{
+   
+   background-image: url(flags/mexico.png);
+   background-size: 15px 15px;
+   display: inline-block;
+  width: 15px;
+  height: 15px;
+  content: "";
+}
+td[value*=kingdom]:before{
+   background-image: url(flags/kingdom.png);
+   background-size: 15px 15px;
+   display: inline-block;
+  width: 15px;
+  height: 15px;
+  content: "";
+}

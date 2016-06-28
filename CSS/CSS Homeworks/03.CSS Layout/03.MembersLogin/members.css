@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #a4a4a4;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: #3B3B3B;
+}
+#body{
+    width: 778px;
+    height: 77px;
+    position: relative;
+    background: url(images/mario.png) 0 100% no-repeat;
+    background-size: 70px;
+}
+form{
+    display: block;
+}
+label{
+    cursor: default;
+}
+#body form label{
+    width: 177px;
+    height: 44px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: nirmal;
+    color: white;
+    background-color: #3b3b3b 0;
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    padding: 0 0 0 60px;
+    line-height: 44px;
+    margin: 7px 0 0 12px;
+}
+#body form input{
+    width: 135px;
+    height: 18px;
+    float: left;
+    display: block;
+    margin: 18px 25px 0 0;
+    padding: 0 0 0 10px;
+}
+#body form input.button{
+    width: 64px;
+    height: 64px;
+    float: left;
+    background: url(images/go.png) 0 0 no-repeat #3a3a3a;
+    background-size: 90%;
+    border: none;
+    color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 3px 0 0;
+    padding: 0px;
+}
+#bodymiddle{
+    width: 602px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 88px;
+    clear: both;
+    float: left;
+    padding: 0 0 0 12px;
+}
+#bodymiddle h2{
+    width: 400px;
+    height: 50px;
+    display: block;
+    background: #3b3b3b;
+    color: #fbd61a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 8px 0 0 0px;
+    letter-spacing: -1.0px;
+}
+p{
+    display: block;
+    line-height: 17px;
+    
+}
+p span{
+    color: white;
+    line-height: 19px;
+}
+#bodymiddle p.lasttext{
+    padding: 0 0 25px 0;
+    
+}

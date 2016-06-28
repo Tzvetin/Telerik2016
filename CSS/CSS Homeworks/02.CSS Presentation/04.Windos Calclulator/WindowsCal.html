@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calcolator.css">
+    <title>Windows Calcolator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><span class="menu_head">V</span>iew</li>
+                <li><span class="menu_head">E</span>dit</li>
+                <li><span class="menu_head">H</span>elp</li>
+            </ul>
+        </nav>
+        <form class="display input_display">
+            <input type="text" id="button display_area" value="8854455">
+            </form>
+        <div id="binary_area" class="display">
+            <table>
+                <tr >
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr class="symb">
+                    <td>63</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>47</td>
+                    <td></td>
+                    <td></td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr class="symb">
+                    <td>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>15</td>
+                    <td></td>
+                    <td></td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+        <div id="controls">
+            <div id="leftPanel">
+                <div id="numeric">
+                    <form action="" class="display">
+                        <ul>
+                            <li>
+                                <input type="radio" id="hex" name="numеric" />
+                                <label for="hex">Hex</label>
+                                </li>
+                            <li>
+                                <input type="radio" id="dec" name="numеric" checked />
+                                <label for="dec">Dec</label>
+                                </li>
+                            <li>
+                                <input type="radio" id="oct" name="numеric" />
+                                <label for="oct">Oct</label>
+                                </li>
+                            <li>
+                                <input type="radio" id="bin" name="numеric" />
+                                <label for="bin">Bin</label>
+                                </li>
+                        </ul>
+                    </form>
+                </div>
+                <div id="byteSize">
+                     <form action="" class="display">
+                        <ul>
+                            <li>
+                                <input type="radio" id="qword" name="numеric" checked />
+                                <label for="qword">Qword</label>
+                                </li>
+                            <li>
+                                <input type="radio" id="dwprd" name="numеric" />
+                                <label for="dwprd">Dwprd</label>
+                                </li>
+                            <li>
+                                <input type="radio" id="Word" name="numеric" />
+                                <label for="Word">Word</label>
+                                </li>
+                            <li>
+                                <input type="radio" id="byte" name="numеric" />
+                                <label for="byte">Byte</label>
+                                </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+            <div id="button_field">
+<form>
+    <div class="button_table">
+        <div class="table_row">
+            <div class="table_cell">
+                <input type="button" class="button dis" value="" button disabled />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="Mod" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button dis" value="A" button disabled/>
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button ms" value="MC" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button ms" value="MR" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button ms" value="MS" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button ms" value="M+" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button ms" value="M-" />
+                </div>
+        </div>
+        <div class="table_row">
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="(" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value=")" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button dis" value="B" button disabled/>
+                </div>
+            <div class="table_cell">
+                <input type="button" id="arrow" class="button gradient" value="&larr;" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="CE" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="C" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="&plusmn" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button dis" value="&radic;" button disabled/>
+                </div>
+        </div>
+        <div class="table_row">
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="RoL" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="RoR" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button dis" value="C" button disabled/>
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button digit" value="7" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button digit" value="8" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button digit" value="9" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="/" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button dis" value="%" button disabled/>
+                </div>
+        </div>
+        <div class="table_row">
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="Or" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="Xor" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button dis" value="D" button disabled/>
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button digit" value="4" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button digit" value="5" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button digit" value="6" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="*" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button dis" value="1/x" button disabled/>
+                </div>
+        </div>
+        <div class="table_row">
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="Lsh" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="Rsh" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button dis" value="E" button disabled/>
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button digit" value="1" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button digit" value="2" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button digit" value="3" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="-" />
+                </div>
+            <div class="table_cell">
+                <input type="button" id="equal" class="button gradient" value="=" />
+                </div>
+        </div>
+        <div class="table_row">
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="Not" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="And" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button dis" value="F" button disabled/>
+                </div>
+            <div class="table_cell">
+                <input type="button" id="zero" class="button digit" value="0" />
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button dis" value="." button disabled/>
+                </div>
+            <div class="table_cell">
+                <input type="button" class="button gradient" value="+" />
+                </div>
+        </div>
+    </div>
+</form>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

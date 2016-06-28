@@ -1,0 +1,20 @@
+@font-face{
+    font-family: EdwardianScript;
+    src: url('fonts/EdwardianScriptITC.ttf')
+}
+@font-face{
+    font-family: Consoles;
+    src: url("fonts/Consolas.ttf")
+}
+p{
+    color:#0094ff;
+    font-family: "Consoles", sans-serif;
+    
+}
+p::first-line{
+    font-weight: bold;
+    }
+p::first-letter{
+        font-family: "EdwardianScript", sans-serif;
+        font-size: 200%;
+    }
